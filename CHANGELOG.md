@@ -18,6 +18,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### 新增 / Added
+
+- 设置 → 外观新增「语言」：可在跟随浏览器、English、简体中文、繁體中文之间切换界面语言，选择会被记住。在设置页切换后当前页面立即生效，其他已打开的页面重新打开或刷新后生效；划词翻译的默认目标语言、斜杠提示词里的 `{{ui_language}}`、日期格式与语音识别也随之切换。扩展名称等由浏览器自身显示的内容仍跟随浏览器语言 ([#50](https://github.com/maotoumao/Cebian/issues/50))
+
+- Settings → Appearance gains a "Language" option: switch the interface between Follow browser, English, 简体中文 and 繁體中文, and the choice is remembered. The settings page you change it in switches right away; other open pages switch after you reopen or refresh them. The default target language of selection translation, `{{ui_language}}` in slash prompts, date formats and speech recognition follow it too. The extension name and other text shown by the browser itself still follow the browser language ([#50](https://github.com/maotoumao/Cebian/issues/50))
+
 ## 1.8.1 - 2026-10-10
 
 ### 新增 / Added
