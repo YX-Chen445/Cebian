@@ -24,6 +24,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - Settings → Appearance gains a "Language" option: switch the interface between Follow browser, English, 简体中文 and 繁體中文, and the choice is remembered. The settings page you change it in switches right away; other open pages switch after you reopen or refresh them. The default target language of selection translation, `{{ui_language}}` in slash prompts, date formats and speech recognition follow it too. The extension name and other text shown by the browser itself still follow the browser language ([#50](https://github.com/maotoumao/Cebian/issues/50))
 
+### 修复 / Fixed
+
+- 修复在侧边栏对话页按 Tab 时，界面可能偏移出半个历史记录页并卡住、只能重开侧边栏才能恢复的问题 ([#91](https://github.com/maotoumao/Cebian/issues/91))
+
+- Fixed pressing Tab on the side panel chat page sometimes shifting half of the history page into view and getting stuck there until the side panel was reopened ([#91](https://github.com/maotoumao/Cebian/issues/91))
+
 ## 1.8.1 - 2026-10-10
 
 ### 新增 / Added
